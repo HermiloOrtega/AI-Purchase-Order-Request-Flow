@@ -1,7 +1,14 @@
 # 📦 Microsoft Flow PO Requests (AI)
 
+---
+
 ## 🧭 Overview
 **Microsoft Flow PO Requests (AI)** is a Power Automate solution created to streamline the intake and processing of Purchase Requisition Forms. When a document is uploaded to a SharePoint project folder, the flow is triggered, an AI model extracts the form's data, and the content is structured into a SharePoint-hosted Excel spreadsheet. This flow enhances efficiency and eliminates manual entry errors for over 40 active project folders.
+
+### Flow
+![Screenshot](./assets/1.jpg)
+
+---
 
 ## 💡 Idea & Concept
 The flow was originally designed to automate repetitive PO request data entry. Instead of having users manually copy form data, the system:
@@ -10,6 +17,8 @@ The flow was originally designed to automate repetitive PO request data entry. I
 - Writes the extracted rows into a dedicated SharePoint spreadsheet.
 - Notifies the system administrator at the beginning and completion of each run.
 - Logs timestamps for auditing and traceability.
+
+---
 
 ## ✨ Features
 - ✅ Triggered by new file uploads in SharePoint.
@@ -30,6 +39,8 @@ The flow was originally designed to automate repetitive PO request data entry. I
 | **JSON**               | ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)                                                     |
 | **Project Management**   | ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) |
 
+---
+
 ## 🧑‍💻 My Role
 - 💼 Built the full end-to-end logic in Power Automate.
 - 🔧 Trained and maintained the AI Builder model for accurate form extraction.
@@ -37,19 +48,27 @@ The flow was originally designed to automate repetitive PO request data entry. I
 - 🛡️ Ensured data handling security and workflow consistency.
 - ⚙️ Added logging and notification workflows for process visibility.
 
+---
+
 ## 🧗 Challenges & Learnings
 - Fine-tuned the AI Builder model to interpret variations in form layout.
 - Built consistent error handling across dynamic SharePoint environments.
 - Ensured consistent Excel formatting and cell integrity for each run.
 - Optimized Power Automate’s “Apply to Each” loop performance.
 
+---
+
 ## 📈 Future Enhancements
 - Centralize flows with dynamic folder/path references to reduce duplication.
 - Introduce approval flows with role-based controls before final export.
 - Create integrated dashboards using Power BI to visualize purchase requests.
 
+---
+
 ## 🪪 License
 Internal tool developed for Quattro Constructors. Not for public distribution.
+
+---
 
 ## 🔗 Related Projects
 - [Quattrofy Web App](#)
